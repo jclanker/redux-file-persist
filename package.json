@@ -1,0 +1,42 @@
+{
+  "name": "@jclanker/redux-file-persist",
+  "version": "1.0.0",
+  "description": "Persist and rehydrate Redux state to a JSON file in Node.js, as a lightweight replacement for redux-persist + redux-persist-node-storage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jclanker/redux-file-persist.git"
+  },
+  "author": "jclanker",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "redux",
+    "persist",
+    "redux-persist",
+    "file",
+    "node",
+    "storage"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "redux": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "redux": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC"
+}
